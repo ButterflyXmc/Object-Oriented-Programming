@@ -46,9 +46,6 @@ print(emp_one.pay)
 
 
 
-
-
-
 # !......................................NOTES..............................................
 # this is just us defining a structure
 # We havent done anything with it yet, its just a structure!!!
