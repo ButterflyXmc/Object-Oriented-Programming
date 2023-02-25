@@ -8,11 +8,12 @@ class Employee:
         self.pay = pay
         self.location = None
     
-    # This fuction prints first and last name
+    # This function prints first and last name
     def say_name(self):
         print(self.first_name, self.last_name)
 
-    # This fucntion takes the default pay and add a certain amount
+    # This function takes the default pay and adds a certain amount
+    # Giving the emplyee a raise
     def pay_rise(self, amount):
         self.pay = self.pay + amount
     
@@ -26,20 +27,19 @@ emp_three = Employee("Eric", "Doe", 20)
 # print(emp_one.first_name, emp_one.last_name)
 # print(emp_two.first_name, emp_two.last_name)
 
-# 3.can use this to print
+# 3. can use this to print
 emp_one.say_name()
 emp_two.say_name()
 
-# printig the pay
 # prints the pay for the emp
 print(emp_one.pay)
 print(emp_three.pay)
 
-# adds 2 to emp_one's pay
+# adds (2) to emp_one's pay
 emp_one.pay_rise(2)
-
 # prints emp_one's added amount
 print(emp_one.pay)
+
 
 # if you want to convert to dictionary
 # print(emp_one.__dict__)
